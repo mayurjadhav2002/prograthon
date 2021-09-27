@@ -1,0 +1,98 @@
+                    .prograthon {
+                        animation-name: prograthon;
+                        animation-iteration-count: infinite;
+                        font-size: 50px;
+                        -webkit-animation-duration: 6s;
+                        animation-duration: 6s;
+                        -webkit-animation-fill-mode: both;
+                        animation-fill-mode: both;
+                        -webkit-animation-timing-function: linear;
+                        animation-timing-function: linear;
+                        color: transparent;
+                    }
+                    
+                    .panel-1 {
+                        padding: 30px;
+                    }
+                    
+                    @keyframes prograthon {
+                        0% {
+                            background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+                            -webkit-background-clip: text;
+                        }
+                        7% {
+                            background-image: linear-gradient(to left, indigo, blue, green, yellow, orange, red, violet);
+                            -webkit-background-clip: text;
+                        }
+                        14% {
+                            background-image: linear-gradient(to left, blue, green, yellow, orange, red, violet, indigo);
+                            -webkit-background-clip: text;
+                        }
+                        28% {
+                            background-image: linear-gradient(to left, green, yellow, orange, red, violet, indigo, blue);
+                            -webkit-background-clip: text;
+                        }
+                        35% {
+                            background-image: linear-gradient(to left, yellow, orange, red, violet, indigo, blue, green);
+                            -webkit-background-clip: text;
+                        }
+                        42% {
+                            background-image: linear-gradient(to left, orange, red, violet, indigo, blue, green, yellow);
+                            -webkit-background-clip: text;
+                        }
+                        49% {
+                            background-image: linear-gradient(to left, red, violet, indigo, blue, green, orange);
+                            -webkit-background-clip: text;
+                        }
+                        56% {
+                            background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+                            -webkit-background-clip: text;
+                        }
+                        63% {
+                            background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+                            -webkit-background-clip: text;
+                        }
+                        70% {
+                            background-image: linear-gradient(to left, indigo, blue, green, yellow, orange, red, violet);
+                            -webkit-background-clip: text;
+                        }
+                        77% {
+                            background-image: linear-gradient(to left, blue, green, yellow, orange, red, violet, indigo);
+                            -webkit-background-clip: text;
+                        }
+                        84% {
+                            background-image: linear-gradient(to left, green, yellow, orange, red, violet, indigo, blue);
+                            -webkit-background-clip: text;
+                        }
+                        35% {
+                            background-image: linear-gradient(to left, yellow, orange, red, violet, indigo, blue, green);
+                            -webkit-background-clip: text;
+                        }
+                        90% {
+                            background-image: linear-gradient(to left, orange, red, violet, indigo, blue, green, yellow);
+                            -webkit-background-clip: text;
+                        }
+                        95% {
+                            background-image: linear-gradient(to left, red, violet, indigo, blue, green, orange);
+                            -webkit-background-clip: text;
+                        }
+                        100% {
+                            background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+                            -webkit-background-clip: text;
+                        }
+                    }
+                    
+                    .hr1 {
+                        margin-bottom: 10px;
+                        border-top: 5px dotted skyblue;
+                    }
+                    
+                    .newsletter {
+                        padding: 50px;
+                    }
+                    
+                    @media screen and (max-width: 480px) {
+                        .prograthon {
+                            font-size: 40px;
+                        }
+                    }
